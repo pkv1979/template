@@ -13,6 +13,13 @@
       rel="stylesheet"
     />
 
+    <!-- Подключение библиотеки swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -22,9 +29,10 @@
           <a href="#" class="logo">
             <img src="./img/Logo.svg" alt="Логотип" class="logo__img" />
           </a>
-          <a href="tel:+79625561234" class="header__phone">
-            +7 (962) 556 - 1234<br />
-            <span class="header__phone_text">Перезвоните мне</span>
+          <a href="tel:+79625561234" class="phone">
+            <img src="./img/Phone.svg" alt="Телефон" class="phone__img" />
+            <span class="phone__text">+7 (962) 556 - 1234</span>
+            <span class="phone__text_underline">Перезвоните мне</span>
           </a>
         </div>
 
@@ -41,5 +49,56 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="advantages">
+        <div class="container advantages__container">
+          <h2 class="advantages__title">
+            Уникальный заголовок для преимущества компании
+          </h2>
+          <p class="advantages__subtitle">О нас</p>
+          <p class="advantages__text">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+            сгенерировать несколько абзацев более менее осмысленного текста рыбы
+            на русском языке, а начинающему оратору отточить.
+          </p>
+
+          <div class="advantages__items swiper">
+            <div class="swiper-wrapper advantages__wrapper">
+              <div class="swiper-slide advantages__item">
+                <p class="advantages__number">1</p>
+                <p class="advantages__description">
+                  Первое целевое преимущество
+                </p>
+              </div>
+              <div class="swiper-slide advantages__item">
+                <p class="advantages__number">2</p>
+                <p class="advantages__description">
+                  Второе целевое преимущество
+                </p>
+              </div>
+              <div class="swiper-slide advantages__item">
+                <p class="advantages__number">3</p>
+                <p class="advantages__description">
+                  Третье целевое преимущество
+                </p>
+              </div>
+              <div class="swiper-slide advantages__item">
+                <p class="advantages__number">4</p>
+                <p class="advantages__description">
+                  Четвертое целевое преимущество
+                </p>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev advantages__prev"></div>
+            <div class="swiper-button-next advantages__next"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

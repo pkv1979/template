@@ -1,0 +1,44 @@
+.phone {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.phone__img {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+
+.phone__text {
+  display: block;
+}
+
+.phone__text_underline {
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1px solid var(--secondary-color-50);
+}
+
+@media (max-width: 1024px) {
+  .phone {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .phone__text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .phone__img {
+    display: block;
+  }
+
+  .phone__text,
+  .phone__text_underline {
+    display: none;
+  }
+}

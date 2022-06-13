@@ -4,3 +4,10 @@
     height: 60px;
   }
 }
+
+@media (max-width: 425px) {
+  .logo__img {
+    width: 30px;
+    height: 30px;
+  }
+}
