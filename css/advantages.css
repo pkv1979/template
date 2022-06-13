@@ -84,7 +84,7 @@
 .advantages__next {
   width: 38px;
   height: 38px;
-  color: #434343;
+  color: var(--arrow-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

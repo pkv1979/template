@@ -5,10 +5,15 @@
   --secondary-color-50: rgba(255, 255, 255, 0.5);
   --secondary-color-86: rgba(255, 255, 255, 0.86);
   --secondary-color-75: rgba(255, 255, 255, 0.75);
+  --secondary-color-80: rgba(255, 255, 255, 0.8);
 
   --main-background: #f9f9f9;
 
   --button-background: #15a9cb;
   --button-shadow: rgba(21, 169, 203, 0.3);
   --number-background: #23c7ec;
+
+  --arrow-color: #434343;
+
+  --link-color: #4a76a8;
 }

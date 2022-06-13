@@ -97,6 +97,46 @@
           </div>
         </div>
       </section>
+
+      <section class="feedback">
+        <div class="container">
+          <h2 class="feedback__title">Остались вопросы?</h2>
+          <p class="feedback__subtitle">
+            Оставьте номер телефона, и мы перезвоним вам
+          </p>
+          <form
+            class="feedback__form"
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="post"
+          >
+            <input
+              type="text"
+              class="feedback__input"
+              name="name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              class="feedback__input"
+              name="phone"
+              placeholder="Телефон"
+            />
+            <input
+              type="email"
+              class="feedback__input feedback__input_mb50"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="feedback__button">
+              позвоните мне
+            </button>
+          </form>
+          <p class="feedback__personal">
+            Я даю своё <a href="#" class="feedback__link">согласие</a> на
+            обработку моих персональных данных.
+          </p>
+        </div>
+      </section>
     </main>
 
     <script src="./js/main.js"></script>
