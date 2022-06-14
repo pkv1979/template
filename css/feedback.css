@@ -60,3 +60,72 @@
   text-decoration: underline;
   color: var(--link-color);
 }
+
+@media (max-width: 1024px) {
+  .feedback {
+    padding-bottom: 56px;
+  }
+
+  .feedback__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
+
+  .feedback__subtitle {
+    font-size: 20px;
+  }
+
+  .feedback__form {
+    margin-bottom: 30px;
+  }
+
+  .feedback__input {
+    margin-bottom: 20px;
+    width: 379px;
+    font-size: 20px;
+  }
+
+  .feedback__input_mb50 {
+    margin-bottom: 50px;
+  }
+
+  .feedback__personal {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 425px) {
+  .feedback {
+    padding: 30px 15px;
+  }
+
+  .feedback__title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .feedback__subtitle {
+    margin-bottom: 35px;
+    font-size: 12px;
+  }
+
+  .feedback__input {
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .feedback__input_mb50 {
+    margin-bottom: 45px;
+  }
+
+  .feedback__button {
+    padding: 10px 26px;
+    font-size: 16px;
+  }
+
+  .feedback__personal {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
